@@ -1,20 +1,32 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# The Foundry Commons 
 
-# Run and deploy your AI Studio app
+This is a pixel-perfect, highly responsive, editorial-style web interface built completely with vanilla frontend technologies. Originally inspired by minimalist, community-forward market spaces, this project highlights clean typography, generous whitespace, and a striking, asymmetrical vertical navigation system.
 
-This contains everything you need to run your app locally.
+**[Live Demo](https://sossadadeveloper.github.io/the-foundry-commons/)**
 
-View your app in AI Studio: https://ai.studio/apps/3ad6a534-0a44-4103-9fa0-56e6a1015c19
+---
 
-## Run Locally
+##  Features
 
-**Prerequisites:**  Node.js
+* **Editorial Design Aesthetic:** High-contrast editorial serif typography paired with clean, wide-spaced sans-serif utility text.
+* **Signature Vertical Navigation:** A distinct, multi-colored right-aligned vertical sticky navigation menu that seamlessly handles multi-lingual/pillar branding.
+* **Fully Responsive Layout:** Utilizes modern CSS layout engines (Grid and Flexbox) to transition smoothly from desktop viewports down to mobile screens.
+* **Zero Dependencies:** 100% pure vanilla HTML5, CSS3, and modern ES6+ JavaScript. No frameworks, no preprocessors, no bloated libraries.
+* **Interactive Components:** Includes custom micro-interactions for call-to-action components and an inline-validated newsletter subscription drawer.
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Tech Stack
+
+* **Markup:** HTML5 (Semantic structure)
+* **Styling:** CSS3 (Custom Variables, CSS Grid, Flexbox, Media Queries)
+* **Interactivity:** Vanilla JavaScript (ES6+ DOM manipulation)
+* **Typography:** Google Fonts (Playfair Display & DM Sans)
+
+---
+
+##  Project Structure
+
+Because this project prioritizes optimal performance and zero overhead, it is architected as a lightweight, single-file deployment:
+
+This project was created to practice bringing static design to live gotten from Frontend Practice
