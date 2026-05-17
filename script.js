@@ -1,4 +1,4 @@
-// Smooth scrolling for anchor links
+// Smooth scrolling
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
@@ -19,8 +19,8 @@
 
         newsletterForm.addEventListener('submit', (e) => {
             e.preventDefault();
-            
-            // Simulate API call
+
+                
             const submitBtn = newsletterForm.querySelector('.newsletter-submit');
             submitBtn.style.opacity = '0.5';
             submitBtn.disabled = true;
@@ -46,5 +46,3 @@
                 heroImage.style.transform = `translateY(${scrollValue * speed}px)`;
             }
         });
-
-        // Add hover classes for buttons if needed, but CSS handles it well
